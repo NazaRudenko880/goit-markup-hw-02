@@ -4,11 +4,14 @@
   --link-color: #757575;
   --babackground-color-title: #2f303a;
   --page-color: #ffffff;
+  --body-color: #f5f5f5;
 }
 
 .body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
+  background-color: var(--body-color);
+  color: var(--body-color);
 }
 
 .list {
