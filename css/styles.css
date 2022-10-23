@@ -211,6 +211,14 @@
   color: var(--link-color);
 }
 
+.hero-photo img{
+width: 370px;
+height: 294px;
+left: 215px;
+top: 262px;
+background: url(portfolio1.jpg);
+}
+
 .cursor{
   cursor: pointer;
 }
