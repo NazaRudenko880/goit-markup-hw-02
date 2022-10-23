@@ -210,3 +210,7 @@
   line-height: calc(30 / 16);
   color: var(--link-color);
 }
+
+.cursor{
+  cursor: pointer;
+}
