@@ -23,6 +23,8 @@ html {
   background-color: var(--body-color);
   color: var(--body-color);
   margin: 0;
+
+  background-color: #ffffff;
 }
 
 .list {
@@ -312,6 +314,7 @@ html {
   display: inline-block;
   border: solid var(--page-color);
   min-width: 125px;
+  border-radius: transparent 3px;
 }
 
 .button-list-size {
@@ -359,6 +362,7 @@ html {
 .hero-photo {
   display: flex;
   flex-wrap: wrap;
+  border: 1px;
 }
 
 .flex-element {
@@ -381,6 +385,8 @@ html {
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
   color: var(--background-color);
+  margin: 0%;
+  margin-top: 20px;
 }
 
 .hero-photo p {
@@ -388,6 +394,8 @@ html {
   font-size: 16px;
   line-height: calc(30 / 16);
   color: var(--link-color);
+  margin: 0%;
+  margin-top: 4px;
 }
 
 .hero-photo img {
@@ -424,4 +432,12 @@ html {
 
 .work-list {
   margin-bottom: 50px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+
+  color: #212121;
 }
