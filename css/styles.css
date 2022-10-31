@@ -316,7 +316,7 @@ html {
   border-radius: 4px;
   padding: 6px 22px;
   display: inline-block;
-  border: solid var(--page-color);
+  border: var(--page-color);
   min-width: 125px;
   border-radius: transparent 3px;
 }
