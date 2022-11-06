@@ -597,19 +597,6 @@ html {
   border-radius: 50%;
 }
 
-.media-a-footer-twiter {
-  margin-right: 10px;
-  display: flex;
-  padding: 0;
-  border: 0;
-  width: 44px;
-  height: 44px;
-  padding: 12px;
-  background: var(--main-color);
-  fill: var(--page-color);
-  border-radius: 50%;
-}
-
 .media-a-footer {
   margin-right: 10px;
   display: flex;
@@ -623,6 +610,10 @@ html {
   border-radius: 50%;
 
   background: rgba(255, 255, 255, 0.1);
+}
+
+.media-a-footer:hover {
+  background-color: var(--main-color);
 }
 
 .sponsor {
